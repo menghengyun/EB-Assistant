@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Typhon Deal Checker",
+  "version": "1.0.0",
+  "description": "Instantly determine if an eBay machinery offer is acceptable. Offline-first.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "permissions": ["storage", "tabs", "windows", "scripting", "system.display"],
+  "host_permissions": [
+    "https://www.notion.so/*",
+    "https://app.notion.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.notion.so/*",
+        "https://app.notion.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

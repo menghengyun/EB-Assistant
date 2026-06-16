@@ -1,0 +1,650 @@
+{
+  "machines": [
+    {
+      "sku": "TYPH-0113",
+      "price": 4360.0
+    },
+    {
+      "sku": "TYPH-0115",
+      "price": 4741.18
+    },
+    {
+      "sku": "TYPH-0101Y",
+      "price": 4724.71
+    },
+    {
+      "sku": "TYPH-0101G",
+      "price": 4724.71
+    },
+    {
+      "sku": "TYPH-1501G",
+      "price": 4947.06
+    },
+    {
+      "sku": "TYPH-1301G",
+      "price": 5908.24
+    },
+    {
+      "sku": "TYPH-1301G PRO",
+      "price": 7023.53
+    },
+    {
+      "sku": "TYPH-0121",
+      "price": 5203.53
+    },
+    {
+      "sku": "TYPH-1701",
+      "price": 9513.3
+    },
+    {
+      "sku": "TYPH-1702",
+      "price": 10707.93
+    },
+    {
+      "sku": "TYPH-1801R MAX",
+      "price": 10100.0
+    },
+    {
+      "sku": "TYPH-1801Y MAX",
+      "price": 10100.0
+    },
+    {
+      "sku": "TYPH-1801G MAX",
+      "price": 10100.0
+    },
+    {
+      "sku": "TYPH-1802R Max",
+      "price": 11187.06
+    },
+    {
+      "sku": "TYPH-1802Y Max",
+      "price": 11187.06
+    },
+    {
+      "sku": "TYPH-1802G Max",
+      "price": 11187.06
+    },
+    {
+      "sku": "TYPH-XX01R",
+      "price": 10300.0
+    },
+    {
+      "sku": "TYPH-XX01Y",
+      "price": 10300.0
+    },
+    {
+      "sku": "TYPH-XX01G",
+      "price": 10300.0
+    },
+    {
+      "sku": "TYPH-1901PRO",
+      "price": 12209.92
+    },
+    {
+      "sku": "TYPH-1902PRO",
+      "price": 13875.27
+    },
+    {
+      "sku": "TYPH-0701",
+      "price": 11525.88
+    },
+    {
+      "sku": "TYPH-0702 PRO",
+      "price": 12838.55
+    },
+    {
+      "sku": "TYPH-XX51G",
+      "price": 16591.41
+    },
+    {
+      "sku": "TYPH-XX52G",
+      "price": 18409.06
+    },
+    {
+      "sku": "TYPH-X201 PRO",
+      "price": 15852.94
+    },
+    {
+      "sku": "TYPH-X202 PRO",
+      "price": 17545.88
+    },
+    {
+      "sku": "TYPH-X201 Max",
+      "price": 17880.52
+    },
+    {
+      "sku": "TYPH-X202 Max",
+      "price": 19676.47
+    },
+    {
+      "sku": "TYPH-KUVU04",
+      "price": 26776.47
+    },
+    {
+      "sku": "TYPH-LXV6.6",
+      "price": 39254.89
+    },
+    {
+      "sku": "TYPH-0501Y",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0501R",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0502R",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0502R",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0502G",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0503R",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0503G",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0504R",
+      "price": 6058.82
+    },
+    {
+      "sku": "TYPH-0505",
+      "price": 4602.35
+    },
+    {
+      "sku": "TYPH-0507",
+      "price": 4042.35
+    },
+    {
+      "sku": "TYPH-0508",
+      "price": 10154.12
+    },
+    {
+      "sku": "TYPH-0509",
+      "price": 11882.35
+    },
+    {
+      "sku": "TYPH-V1000",
+      "price": 12077.65
+    },
+    {
+      "sku": "TYPH-X1300",
+      "price": 12894.12
+    },
+    {
+      "sku": "TYPH-0611",
+      "price": 8552.4
+    },
+    {
+      "sku": "TYPH-0612",
+      "price": 8987.51
+    },
+    {
+      "sku": "TYPH-0613",
+      "price": 9857.73
+    },
+    {
+      "sku": "TYPH-0614",
+      "price": 10606.12
+    },
+    {
+      "sku": "TYPH-0801",
+      "price": 15410.59
+    },
+    {
+      "sku": "TYPH-0901",
+      "price": 5884.02
+    },
+    {
+      "sku": "TYPH-0902",
+      "price": 6281.56
+    },
+    {
+      "sku": "TYPH-0903",
+      "price": 10427.27
+    },
+    {
+      "sku": "xFlex-2037W",
+      "price": 4164.57
+    },
+    {
+      "sku": "xFlex-4065W",
+      "price": 8101.64
+    },
+    {
+      "sku": "xFlex-2031EM",
+      "price": 10017.06
+    },
+    {
+      "sku": "xFlex-4046EW",
+      "price": 11198.96
+    },
+    {
+      "sku": "xFlex-4068ET",
+      "price": 21347.09
+    },
+    {
+      "sku": "TYPH-0113+PA01",
+      "price": 6077.65
+    },
+    {
+      "sku": "TYPH-0115+PA01",
+      "price": 6458.82
+    },
+    {
+      "sku": "TYPH-0115+PA05",
+      "price": 5795.29
+    },
+    {
+      "sku": "TYPH-0101+PA01",
+      "price": 6442.35
+    },
+    {
+      "sku": "TYPH-0121+PA01",
+      "price": 6921.18
+    },
+    {
+      "sku": "TYPH-0121+PA05",
+      "price": 6544.71
+    },
+    {
+      "sku": "TYPH-1701+PA01",
+      "price": 11641.83
+    },
+    {
+      "sku": "TYPH-1702+PA01",
+      "price": 12880.17
+    },
+    {
+      "sku": "TYPH-1801+PA01",
+      "price": 11819.28
+    },
+    {
+      "sku": "TYPH-1802+PA01",
+      "price": 13215.66
+    },
+    {
+      "sku": "TYPH-XX01+PA01",
+      "price": 11785.88
+    },
+    {
+      "sku": "TYPH-XX01+PA05",
+      "price": 11409.41
+    },
+    {
+      "sku": "TYPH-1901+PA01",
+      "price": 14594.78
+    },
+    {
+      "sku": "TYPH-1902+PA01",
+      "price": 16021.61
+    },
+    {
+      "sku": "TYPH-XX51+PA03",
+      "price": 19759.02
+    },
+    {
+      "sku": "TYPH-XX52+PA03",
+      "price": 21553.95
+    },
+    {
+      "sku": "TYPH-V1000 +5007",
+      "price": 12960.0
+    }
+  ],
+  "attachments": [
+    {
+      "sku": "TYPH-2001",
+      "price": 110.27
+    },
+    {
+      "sku": "TYPH-2002",
+      "price": 125.14
+    },
+    {
+      "sku": "TYPH-2003",
+      "price": 172.33
+    },
+    {
+      "sku": "TYPH-2004",
+      "price": 121.04
+    },
+    {
+      "sku": "TYPH-2005",
+      "price": 135.27
+    },
+    {
+      "sku": "TYPH-2006",
+      "price": 245.81
+    },
+    {
+      "sku": "TYPH-2007",
+      "price": 500.0
+    },
+    {
+      "sku": "TYPH-2008",
+      "price": 220.0
+    },
+    {
+      "sku": "TYPH-2008P",
+      "price": 210.77
+    },
+    {
+      "sku": "TYPH-2009",
+      "price": 167.69
+    },
+    {
+      "sku": "TYPH-2010",
+      "price": 298.46
+    },
+    {
+      "sku": "TYPH-2011",
+      "price": 1252.31
+    },
+    {
+      "sku": "TYPH-2013",
+      "price": 1363.08
+    },
+    {
+      "sku": "TYPH-2016",
+      "price": 2750.0
+    },
+    {
+      "sku": "TYPH-2017",
+      "price": 764.42
+    },
+    {
+      "sku": "TYPH-2021",
+      "price": 316.92
+    },
+    {
+      "sku": "TYPH-2022a",
+      "price": 233.85
+    },
+    {
+      "sku": "TYPH-2022b",
+      "price": 384.62
+    },
+    {
+      "sku": "TYPH-2022c",
+      "price": 916.92
+    },
+    {
+      "sku": "TYPH-2022d",
+      "price": 1195.38
+    },
+    {
+      "sku": "TYPH-2023",
+      "price": 1041.54
+    },
+    {
+      "sku": "TYPH-2024",
+      "price": 246.15
+    },
+    {
+      "sku": "TYPH-2025",
+      "price": 223.08
+    },
+    {
+      "sku": "TYPH-2026",
+      "price": 916.92
+    },
+    {
+      "sku": "TYPH-2027",
+      "price": 1386.15
+    },
+    {
+      "sku": "TYPH-2030a",
+      "price": 1276.92
+    },
+    {
+      "sku": "TYPH-2030b",
+      "price": 1330.77
+    },
+    {
+      "sku": "TYPH-2030c",
+      "price": 1715.38
+    },
+    {
+      "sku": "TYPH-2033",
+      "price": 1700.0
+    },
+    {
+      "sku": "TYPH-2501",
+      "price": 223.33
+    },
+    {
+      "sku": "TYPH-2502",
+      "price": 245.0
+    },
+    {
+      "sku": "TYPH-2503",
+      "price": 461.67
+    },
+    {
+      "sku": "TYPH-2504",
+      "price": 236.67
+    },
+    {
+      "sku": "TYPH-2505",
+      "price": 231.67
+    },
+    {
+      "sku": "TYPH-2506",
+      "price": 440.0
+    },
+    {
+      "sku": "TYPH-2507",
+      "price": 548.33
+    },
+    {
+      "sku": "TYPH-2510",
+      "price": 1198.33
+    },
+    {
+      "sku": "TYPH-2511",
+      "price": 1383.33
+    },
+    {
+      "sku": "TYPH-2513",
+      "price": 2078.33
+    },
+    {
+      "sku": "TYPH-2514",
+      "price": 380.0
+    },
+    {
+      "sku": "TYPH-2515",
+      "price": 1226.67
+    },
+    {
+      "sku": "TYPH-5005",
+      "price": 1564.62
+    },
+    {
+      "sku": "TYPH-5006",
+      "price": 1300.0
+    },
+    {
+      "sku": "TYPH-5007",
+      "price": 2076.92
+    },
+    {
+      "sku": "TYPH-5008",
+      "price": 1324.62
+    },
+    {
+      "sku": "TYPH-5009",
+      "price": 2398.46
+    },
+    {
+      "sku": "TYPH-5010",
+      "price": 1315.38
+    },
+    {
+      "sku": "TYPH-5013",
+      "price": 2544.62
+    },
+    {
+      "sku": "TYPH-5014",
+      "price": 2323.08
+    },
+    {
+      "sku": "TYPH-5015",
+      "price": 2242.47
+    },
+    {
+      "sku": "TYPH-5016",
+      "price": 2336.71
+    },
+    {
+      "sku": "TYPH-5017",
+      "price": 2832.31
+    },
+    {
+      "sku": "TYPH-5018",
+      "price": 2076.92
+    },
+    {
+      "sku": "TYPH-5019",
+      "price": 2030.77
+    },
+    {
+      "sku": "TYPH-5021",
+      "price": 1483.08
+    },
+    {
+      "sku": "TYPH-5022",
+      "price": 2898.46
+    },
+    {
+      "sku": "TYPH-5023",
+      "price": 2544.62
+    },
+    {
+      "sku": "TYPH-5024",
+      "price": 1744.62
+    },
+    {
+      "sku": "TYPH-5025",
+      "price": 1903.08
+    },
+    {
+      "sku": "TYPH-5026",
+      "price": 3723.08
+    },
+    {
+      "sku": "TYPH-5027",
+      "price": 2404.62
+    },
+    {
+      "sku": "TYPH-5105",
+      "price": 1708.33
+    },
+    {
+      "sku": "TYPH-5106",
+      "price": 2026.67
+    },
+    {
+      "sku": "TYPH-5107",
+      "price": 1885.0
+    },
+    {
+      "sku": "TYPH-5108",
+      "price": 1566.67
+    },
+    {
+      "sku": "TYPH-5109",
+      "price": 2416.67
+    },
+    {
+      "sku": "TYPH-5110",
+      "price": 2066.67
+    },
+    {
+      "sku": "TYPH-5111",
+      "price": 1885.0
+    },
+    {
+      "sku": "TYPH-5112",
+      "price": 2603.33
+    },
+    {
+      "sku": "TYPH-5113",
+      "price": 2523.33
+    },
+    {
+      "sku": "TYPH-5114",
+      "price": 2595.0
+    },
+    {
+      "sku": "TYPH-5115",
+      "price": 2275.0
+    },
+    {
+      "sku": "TYPH-5116",
+      "price": 2971.67
+    },
+    {
+      "sku": "TYPH-5117",
+      "price": 2563.33
+    },
+    {
+      "sku": "TYPH-5120",
+      "price": 2983.33
+    },
+    {
+      "sku": "TYPH-5121",
+      "price": 1705.0
+    },
+    {
+      "sku": "TYPH-5122",
+      "price": 3491.67
+    },
+    {
+      "sku": "TYPH-5123",
+      "price": 2370.0
+    },
+    {
+      "sku": "TYPH-5124",
+      "price": 2075.0
+    },
+    {
+      "sku": "TYPH-5125",
+      "price": 1956.67
+    },
+    {
+      "sku": "TYPH-5126",
+      "price": 2748.33
+    },
+    {
+      "sku": "(2001+2002+2003+2004+2005+2006+2007+2009+2010+2011+2013)  11\u4e2a\u5c5e\u5177",
+      "price": 3428.57
+    },
+    {
+      "sku": "(2501+2502+2503+2504+2505+2506+2507+2510+2511+2513+2514+2515) 12\u4e2a\u5c5e\u5177",
+      "price": 5555.56
+    },
+    {
+      "sku": "(2001+2002+2003+2004+2005+2006+2007+2009+2010+2013) 10\u4e2a\u5c5e\u5177",
+      "price": 2761.9
+    },
+    {
+      "sku": "(2001+2002+2005+2007+2013)",
+      "price": 1904.76
+    },
+    {
+      "sku": "(2501+2502+2505+2506+2507+2513)",
+      "price": 3269.84
+    }
+  ]
+}
