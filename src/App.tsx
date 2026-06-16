@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Copy, Check, Calculator, RefreshCcw } from 'lucide-react';
 import { Autocomplete } from './components/Autocomplete';
 import { DealAnalysisCard } from './components/DealAnalysisCard';
@@ -11,10 +11,62 @@ const skuData = skuDataImport as SKUData;
 const NOTION_STOCKS_URL = 'https://app.notion.com/p/typhonmachinery/STOCKS-3c87d201086e4295841fde6b53b7d0c4';
 const NOTION_INCOMING_URL = 'https://app.notion.com/p/typhonmachinery/Incoming-Machines-assigned-a4a3bb316862442dba8f5fa6639eec79';
 
+// Helper to handle Chrome storage with fallback for development
+const storage = {
+  get: (keys: string[], callback: (result: any) => void) => {
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.get(keys, callback);
+    } else {
+      const result: any = {};
+      keys.forEach(key => {
+        const val = localStorage.getItem(`typhon_${key}`);
+        result[key] = val ? JSON.parse(val) : undefined;
+      });
+      callback(result);
+    }
+  },
+  set: (data: any) => {
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.set(data);
+    } else {
+      Object.entries(data).forEach(([key, val]) => {
+        localStorage.setItem(`typhon_${key}`, JSON.stringify(val));
+      });
+    }
+  },
+  remove: (keys: string[]) => {
+    if (typeof chrome !== 'undefined' && chrome.storage && chrome.storage.local) {
+      chrome.storage.local.remove(keys);
+    } else {
+      keys.forEach(key => localStorage.removeItem(`typhon_${key}`));
+    }
+  }
+};
+
 function App() {
   const [selectedItems, setSelectedItems] = useState<SelectedItem[]>([]);
   const [customerOfferInput, setCustomerOfferInput] = useState<string>('');
   const [copied, setCopied] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
+
+  // Load state on startup
+  useEffect(() => {
+    storage.get(['selectedItems', 'customerOffer'], (result) => {
+      if (result.selectedItems) setSelectedItems(result.selectedItems);
+      if (result.customerOffer) setCustomerOfferInput(result.customerOffer);
+      setIsInitialized(true);
+    });
+  }, []);
+
+  // Save state when it changes
+  useEffect(() => {
+    if (isInitialized) {
+      storage.set({
+        selectedItems,
+        customerOffer: customerOfferInput
+      });
+    }
+  }, [selectedItems, customerOfferInput, isInitialized]);
 
   const minPrice = useMemo(() => {
     return selectedItems.reduce((sum, item) => sum + item.price, 0);
@@ -108,7 +160,10 @@ ${comparison.status === 'ACCEPTABLE' ? 'ACCEPTABLE OFFER' : comparison.status ==
   const handleReset = () => {
     setSelectedItems([]);
     setCustomerOfferInput('');
+    storage.remove(['selectedItems', 'customerOffer']);
   };
+
+  if (!isInitialized) return null; // Prevent flicker on load
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-4">
